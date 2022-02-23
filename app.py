@@ -10,7 +10,7 @@ from Figure_class import Figure
 from vwap import vwap
 
 api = krakenex.API()
-k = KrakenAPI(api)
+k = KrakenAPI(api) ## HOLIIIIII
 
 pairs = k.get_tradable_asset_pairs()
 criptos = pairs.index
